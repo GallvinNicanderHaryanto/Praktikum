@@ -1,0 +1,43 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+public class Program
+{
+	public static void Main()
+	{
+ 		Console.WriteLine("Berapa Data:");
+		int brpdata = Convert.ToInt32(Console.ReadLine());
+		for(int i = 1; i <= brpdata; i++){
+			for(int j = 1; j > 1; j++){
+				Console.WriteLine();
+		}		
+		string ulang;
+            do
+            {
+       	Console.Write("NIM: ");
+		String nim = (Console.ReadLine());
+		Console.Write("NAMA: ");
+		String nama = (Console.ReadLine());
+		Console.Write("JENIS KELAMIN:");
+		String jeniskelamin = (Console.ReadLine());
+		Console.Write("TAHUN MASUK:");
+		String tahun = (Console.ReadLine());
+		Console.Write("PROGRAM STUDI:");
+		String studi = (Console.ReadLine());
+		Console.Write("KELAS:");
+		String kelas = (Console.ReadLine());
+
+            Console.WriteLine();
+            Console.Write("\nTambah Data? (Y/N) ? => ");
+            ulang = Console.ReadLine();
+				Console.WriteLine("\n\n");
+            }
+            while (ulang == "Berapa Data");
+            Console.ReadLine();
+			Console.WriteLine("Berapa Data:");
+		int data = Convert.ToInt32(Console.ReadLine());
+		for(int k = 1; k <= brpdata; k++){
+			for(int l = 1; l > 1; l++){
+				Console.WriteLine();
+}}}}}
